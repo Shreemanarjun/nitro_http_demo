@@ -1,10 +1,12 @@
 PODS:
+  - dartnative_http (1.1.1)
   - dartnative_ios (1.0.0):
     - FlexLayout (= 2.0.10)
   - DartNativeCore (1.0.0)
   - FlexLayout (2.0.10)
 
 DEPENDENCIES:
+  - dartnative_http (from `.symlinks/plugins/dartnative_http/ios`)
   - dartnative_ios (from `.symlinks/plugins/dartnative_ios/ios`)
   - DartNativeCore (from `DartNative`)
 
@@ -13,12 +15,15 @@ SPEC REPOS:
     - FlexLayout
 
 EXTERNAL SOURCES:
+  dartnative_http:
+    :path: ".symlinks/plugins/dartnative_http/ios"
   dartnative_ios:
     :path: ".symlinks/plugins/dartnative_ios/ios"
   DartNativeCore:
     :path: DartNative
 
 SPEC CHECKSUMS:
+  dartnative_http: 8de3c3e115dbacbf61fa4d67bce62eb37be145fe
   dartnative_ios: c5e063a6bc126b1f88144c1c16ff9c200caf1e9e
   DartNativeCore: 225e49d9e35e234bcadc6b81586fc4275a1006ee
   FlexLayout: ea94491c923485f7f28891cb5b10245d22df380b

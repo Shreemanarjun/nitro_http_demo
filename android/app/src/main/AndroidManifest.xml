@@ -2,7 +2,9 @@
     <!-- A DartNative app uses the network: the licence check and code push
          need it, and so does any request the app makes. -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Demo benchmark talks plain HTTP to its own loopback server. -->
     <application
+        android:usesCleartextTraffic="true"
         android:label="nitro_http_demo"
         android:name=".Application"
         android:icon="@mipmap/ic_launcher">

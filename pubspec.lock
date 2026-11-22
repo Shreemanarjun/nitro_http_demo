@@ -61,10 +61,10 @@ packages:
     dependency: transitive
     description:
       name: cli_util
-      sha256: "89b8801ba49f8b593fbf2d3e59efd0f566c46cd4ba6837ae2610c72b52a0f899"
+      sha256: da2a2b22f919995eb427edab07725e2be0b1281ef26770f6ce3a213355565262
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   clock:
     dependency: "direct main"
     description:
@@ -250,25 +250,26 @@ packages:
     dependency: transitive
     description:
       name: nitro
-      sha256: "7c65d80d8cd18008a609501eedc60971e22d1153cf3f02155720a16a48d1c12b"
+      sha256: a08c0324f14213c62ba803cada7df3717fecf03c7e94a11856bc7f179ce1ef0d
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.8"
+    version: "0.9.1"
   nitro_annotations:
     dependency: transitive
     description:
       name: nitro_annotations
-      sha256: e2c35febb8f821f56bf0d08edad3d8672bea77d920e7ae294418281799feb108
+      sha256: "081862ace02d85db92651f310718efdbb039dda34613bd672916c80d42156a1c"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.8"
+    version: "0.9.1"
   nitro_http:
     dependency: "direct main"
     description:
-      path: "/private/tmp/claude-501/-Users-shreemanarjunsahu-Library-Application-Support-Claude-scratch-workspaces-dfdf912a-9801-4c2f-8368-44434575d518-fc00c29b-164a-4c25-a3a4-80dc4fabdcaa-scratch-2026-11-18-b70b25/e3c6da27-37cf-4e92-94b0-8dd72caec668/scratchpad/nitro_http"
-      relative: false
-    source: path
-    version: "0.0.7"
+      name: nitro_http
+      sha256: f90bc6de55ef7631713734ba42c6a3403c46e1ea3fee35685952865fd6636d64
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.8"
   node_preamble:
     dependency: transitive
     description:
